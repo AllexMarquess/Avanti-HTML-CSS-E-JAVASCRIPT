@@ -3,14 +3,100 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #000;
+    text-decoration: none;  
+}
+
+/* container */
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: space-between;
 }
 
 /* header */
 
 header{
-    justify-content: space-between;
     background-color: #666;
-    width: 1280px;
-    margin: auto;
-    display: flex;   
+    padding: 10px; 
+    margin-bottom: 20px;
+}
+
+nav{
+    background-color: #EEE;
+    
+}
+
+nav ul {
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    transition: all ease-in-out 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: #000;
+}
+
+/* main */
+
+main{
+    padding: 10px 0;
+}
+
+main section article{
+    margin: 20px 0;
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 20px;
+}
+
+main section{
+    border: 1px solid #DDD;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 12px #000000e6;
+    background-color: #DDD;
+}
+
+main section#saude{
+    background-color: #FFFF;
+}
+
+main h2{
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+main section p {
+    margin: 20px 0;
+
+}
+
+main section a{
+    background-color: #666;
+    color: #EEE;
+    padding: 15px;
+    margin-top: 20px;
+    display: inline-block;
+
 }

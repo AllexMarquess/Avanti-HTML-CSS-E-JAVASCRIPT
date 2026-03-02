@@ -11,24 +11,29 @@
 
 <body>
     <header>
-        <div id="header-logo">
-            <a href="index.html"><img src="img/images.png" alt="logo do projeto" width="70px"></a>
-        </div>
-        <div id="header-frase">
-            <h1>Desenvolvido por pense Avanti</h1>
+        <div class="container flex justify-content">
+            <div id="header-logo">
+                <a href="index.html"><img src="img/images.png" alt="logo do projeto" width="70px"></a>
+            </div>
+            <div id="header-frase">
+                <h1>Desenvolvido por pense Avanti</h1>
+            </div>
         </div>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#">Sobre Nós</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
+        <div class="container">
+            <ul class="flex">
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <main>
+    <main class="container">
+
         <section id="tecnologia">
             <h2>Tecnologia</h2>
 
@@ -40,9 +45,9 @@
                     deserunt quo tempora laboriosam quam.
                 </p>
                 <a href="#">Leia Mais</a>
-                <hr>
+                
             </article>
-
+        
             <article>
                 <h3>Título do post 2</h3>
                 <p>
@@ -51,10 +56,10 @@
                     deserunt quo tempora laboriosam quam.
                 </p>
                 <a href="#">Leia Mais</a>
-                <hr>
+                
             </article>
-
-            <section id="saude">
+        </section>
+        <section id="saude">
                 <h2>Saúde</h2>
 
                 <article>
@@ -65,7 +70,7 @@
                         Dolores itaque deserunt quo tempora laboriosam quam.
                     </p>
                     <a href="#">Leia Mais</a>
-                    <hr>
+                    
                 </article>
 
                 <article>
@@ -76,13 +81,12 @@
                         Dolores itaque deserunt quo tempora laboriosam quam.
                     </p>
                     <a href="#">Leia Mais</a>
-                    <hr>
+                
                 </article>
-            </section>
-
         </section>
+
     </main>
-    
+
     <footer>
         <p>Todos os Direitos Reservados</p>
     </footer>
